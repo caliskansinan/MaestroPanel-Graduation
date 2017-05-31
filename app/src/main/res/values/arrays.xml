@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>English</item>
+        <item>Türkçe</item>
+    </string-array>
+    <string-array name="dbType">
+        <item>mssql</item>
+        <item>mysql</item>
+    </string-array>
+</resources>

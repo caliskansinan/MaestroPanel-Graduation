@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include
+        android:id="@+id/dialog_toolbar"
+        layout="@layout/dialog_toolbar_create"/>
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/db_type"
+                android:textAlignment="viewStart" />
+
+            <Spinner
+                android:id="@+id/dbType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <requestFocus
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/database"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/txtDatabase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/database"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/username"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/txtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quota"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/txtQuota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/quota"
+                android:inputType="numberSigned" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/host"
+                android:textAlignment="viewStart" />
+
+            <EditText
+                android:id="@+id/txtHost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/host"
+                android:inputType="textPassword" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

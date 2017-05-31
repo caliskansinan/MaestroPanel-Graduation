@@ -1,0 +1,22 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="net.sinancaliskan.maestropanel.ui.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_security_black_24dp"
+        android:title="@string/api_settings" />
+
+
+    <header
+        android:fragment="net.sinancaliskan.maestropanel.ui.SettingsActivity$LanguagePreferenceFragment"
+        android:icon="@drawable/ic_language_black_24dp"
+        android:title="@string/language_settings" />
+    <!--
+        <header
+            android:fragment="net.sinancaliskan.maestropanel.ui.SettingsActivity$DataSyncPreferenceFragment"
+            android:icon="@drawable/ic_sync_black_24dp"
+            android:title="@string/pref_header_data_sync" />
+    -->
+
+</preference-headers>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <include
+        android:id="@+id/dialog_toolbar"
+        layout="@layout/dialog_toolbar_edit"/>
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/mssql"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <CheckBox
+                    android:id="@+id/mssqlRead"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/READ" />
+
+                <CheckBox
+                    android:id="@+id/mssqlUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UPDATE" />
+
+                <CheckBox
+                    android:id="@+id/mssqlDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DELETE" />
+
+                <CheckBox
+                    android:id="@+id/mssqlWrite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/WRITE" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mysql"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <CheckBox
+                    android:id="@+id/mysqlSelect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SELECT" />
+
+                <CheckBox
+                    android:id="@+id/mysqlInsert"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/INSERT" />
+
+                <CheckBox
+                    android:id="@+id/mysqlUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/UPDATE" />
+
+                <CheckBox
+                    android:id="@+id/mysqlDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DELETE" />
+
+                <CheckBox
+                    android:id="@+id/mysqlDrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/DROP" />
+
+                <CheckBox
+                    android:id="@+id/mysqlCreate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CREATE" />
+
+                <CheckBox
+                    android:id="@+id/mysqlAlter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ALTER" />
+
+                <CheckBox
+                    android:id="@+id/mysqlShowView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SHOWVIEW" />
+
+                <CheckBox
+                    android:id="@+id/mysqlAlterRoutine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ALTERROUTINE" />
+
+                <CheckBox
+                    android:id="@+id/mysqlEvent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/EVENT" />
+
+                <CheckBox
+                    android:id="@+id/mysqlIndex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/INDEX" />
+
+                <CheckBox
+                    android:id="@+id/mysqlReferences"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/REFERENCES" />
+
+                <CheckBox
+                    android:id="@+id/mysqlTrigger"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/TRIGGER" />
+
+                <CheckBox
+                    android:id="@+id/mysqlLockTables"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LOCKTABLES" />
+
+                <CheckBox
+                    android:id="@+id/mysqlCreateRoutine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CREATEROUTINE" />
+
+                <CheckBox
+                    android:id="@+id/mysqlCreateTemporaryTables"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CREATETEMPORARYTABLES" />
+
+                <CheckBox
+                    android:id="@+id/mysqlCreateView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/CREATEVIEW" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

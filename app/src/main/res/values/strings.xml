@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name" translatable="false">Maestro Panel</string>
+
+    <string name="default_API" translatable="false"></string>
+    <string name="default_IP" translatable="false"></string>
+
+    <string name="domains">Domains</string>
+    <string name="resellers">Resellers</string>
+    <string name="servers">Servers</string>
+
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="domain_create">Domain Create</string>
+    <string name="alias_create">Alias Create</string>
+    <string name="reseller_create">Reseller Create</string>
+    <string name="server_create">Server Create</string>
+    <string name="change_password">Change Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_re">Re-Password</string>
+    <string name="isLoading">" is Loading..."</string>
+    <string name="domain">Domain</string>
+    <string name="reseller">Reseller</string>
+    <string name="server">Server</string>
+    <string name="cancel">Cancel</string>
+    <string name="registered">registered</string>
+    <string name="somethingIsWrong">Something is wrong check API key or Server Address!</string>
+    <string name="welcome_message">"Welcome "</string>
+    <string name="register">Register</string>
+    <string name="domain_information">Domain Information</string>
+    <string name="create_operation">" Create Operation running in background"</string>
+    <string name="api_settings">API Settings</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="auto_login">Automatic Login</string>
+    <string name="auto_summary">Automatic Login With API key</string>
+    <string name="api_key">API Key</string>
+    <string name="server_address">Server Address</string>
+    <string name="default_language" translatable="false">English</string>
+    <string name="domain_name">Domain Name</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="owner">Owner</string>
+    <string name="ip_address">IP Address</string>
+    <string name="email">Email</string>
+    <string name="disk_usage">Disk Usage</string>
+    <string name="properties">Properties</string>
+    <string name="subdomain_management">Subdomain Management</string>
+    <string name="alias_management">Alias Management</string>
+    <string name="database_management">Database Management</string>
+    <string name="ftp_management">FTP Management</string>
+    <string name="mailbox_management">Mailbox Management</string>
+    <string name="dns_management">DNS Management</string>
+    <string name="plan_alias">Plan Alias</string>
+    <string name="active_domain_user">Active Domain User</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="new_password">New Password</string>
+    <string name="login">Login</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="not_found_result">Not Found Result</string>
+    <string name="exit_message">Press again if you want to Exit</string>
+    <string name="version">Version</string>
+    <string name="host_name">Host Name</string>
+    <string name="server_name">Server Name</string>
+    <string name="processor">Processor</string>
+    <string name="operating_system">Operating System</string>
+    <string name="server_information">Server Information</string>
+    <string name="resources">Resources</string>
+    <string name="resource">Resource</string>
+    <string name="total">Total</string>
+    <string name="using">Using</string>
+    <string name="change_message">Language change will active after the restart</string>
+    <string name="subdomain">Subdomain</string>
+    <string name="alias" translatable="false">Alias</string>
+    <string name="quota">Quota (MB)</string>
+    <string name="used">Used</string>
+    <string name="limit" translatable="false">Limit</string>
+    <string name="size">Size</string>
+    <string name="database">Database</string>
+    <string name="home_path">Home Path</string>
+    <string name="read">Read</string>
+    <string name="write">Write</string>
+    <string name="authorization">Authorization</string>
+    <string name="ftp" translatable="false">FTP</string>
+    <string name="name">Name</string>
+    <string name="host_value">Host/Value</string>
+    <string name="dns" translatable="false">DNS</string>
+    <string name="ftp_user">FTP User</string>
+    <string name="subdomain_create">Subdomain Create</string>
+    <string name="delete_operation">" Delete Operation running in background"</string>
+    <string name="are_you_sure_to_delete">Are you sure to delete?</string>
+    <string name="delete">Delete</string>
+    <string name="change">Change</string>
+    <string name="change_operation">" Change Operation running in background"</string>
+    <string name="change_complated">" Change Operation Completed"</string>
+    <string name="delete_completed">Delete Operation Completed</string>
+    <string name="create_completed">Create Operation Completed</string>
+    <string name="subdomain_delete">Subdomain Delete</string>
+    <string name="subdomain_change">Subdomain FTP User Change</string>
+    <string name="domain_delete">Domain Delete</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="started">Domain Started</string>
+    <string name="stoped">Domain Stoped</string>
+    <string name="mailbox">MailBox</string>
+    <string name="mailbox_create">MailBox Create</string>
+    <string name="redirect">Redirect</string>
+    <string name="redirect_mail">Redirect Mail</string>
+    <string name="display_name">Display Name</string>
+    <string name="account">Account</string>
+    <string name="mailbox_change_password">MailBox Change Account Password</string>
+    <string name="mailbox_change_quota">MailBox Change Account Quota</string>
+    <string name="database_create">Database Create</string>
+    <string name="db_type">Database Type</string>
+    <string name="host" translatable="false">Host</string>
+    <string name="ftp_user_create">Ftp User Create</string>
+    <string name="read_only">Read Only</string>
+    <string name="ftp_user_change_password">FTP User Change Password</string>
+    <string name="database_user_management">Database User Management</string>
+    <string name="dns_create">DNS Create</string>
+    <string name="record_type">Record Type</string>
+    <string name="record_name">Record Name</string>
+    <string name="record_value">Record Value</string>
+    <string name="priority">Priority</string>
+    <string name="database_user_create">Database User</string>
+    <string name="database_user_change_password">Database User Change Password</string>
+    <string name="update">Update</string>
+    <string name="DELETE">Delete</string>
+    <string name="READ">Read</string>
+    <string name="UPDATE">Update</string>
+    <string name="WRITE">Write</string>
+    <string name="SELECT">Select</string>
+    <string name="INSERT">Insert</string>
+    <string name="DROP">Drop</string>
+    <string name="CREATE">Create</string>
+    <string name="ALTER">Alter</string>
+    <string name="SHOWVIEW">Show View</string>
+    <string name="ALTERROUTINE">Alter Routine</string>
+    <string name="EVENT" translatable="false">Event</string>
+    <string name="INDEX" translatable="false">Index</string>
+    <string name="REFERENCES" translatable="false">References</string>
+    <string name="TRIGGER">Trigger</string>
+    <string name="LOCKTABLES">Lock Tables</string>
+    <string name="CREATEROUTINE">Create Routine</string>
+    <string name="CREATETEMPORARYTABLES">Create Temporary Tables</string>
+    <string name="CREATEVIEW">Create View</string>
+    <string name="database_user_set_permission">Database User Set Permission</string>
+    <string name="database_user">Database User</string>
+    <string name="country">Country</string>
+    <string name="organization">Organization</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="postalCode">Postal Code</string>
+    <string name="phone">Phone</string>
+    <string name="fax" translatable="false">Fax</string>
+    <string name="reseller_information">Reseller Information</string>
+    <string name="domain_management">Domain Management</string>
+    <string name="ip_management">IP Management</string>
+    <string name="shared">Shared</string>
+    <string name="dedicated">Dedicated</string>
+    <string name="exclusive">Exclusive</string>
+    <string name="domain_count">Domain Count</string>
+    <string name="computer_name">Computer Name</string>
+    <string name="cpu">CPU</string>
+    <string name="file_management">File Management</string>
+    <string name="database_change_quota">Database Change Quota</string>
+    <string name="server_ip_address">Server IP Addresses</string>
+    <string name="reseller_started">Reseller Started</string>
+    <string name="reseller_stoped">Reseller Stoped</string>
+</resources>
